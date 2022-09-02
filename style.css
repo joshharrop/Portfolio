@@ -1,11 +1,10 @@
 
 
-sidebar {
+.sidebar {
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-    position: fixed;
     height: 100%;
     overflow: auto;
   }
@@ -26,7 +25,6 @@ font-size: 100px;
     padding: 0;
     width: 200px;
     background-color:rgb(255, 166, 0);
-    position: fixed;
     height: 100%;
     overflow: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -98,4 +96,59 @@ text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 20px;
 margin-left: 300px;
+  }
+  .container{
+    max-width: 95%;
+    margin: 0 auto;
+
+  }
+  .banner .column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  body .nav{
+    width: 250px;
+
+  }
+  body{
+  display: flex;  
+  }
+  .container{
+    max-width: 95%;
+    margin: 0 auto;
+
+  }
+  .banner .column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  body .nav{
+    width: 250px;
+
+  }
+  body{
+  display: flex;  
+  }
+  body .main{
+    width: calc(100% - 250px);
+
+  }
+  .banner{
+    background-image: url("img/MaxPixel.net-Abstract-Background-Abstract-Art-Abstract-4745652.jpg");
+    background-size: cover;
+
+
+
+  }
+  .banner .column h2{
+    margin: 0;
   }
